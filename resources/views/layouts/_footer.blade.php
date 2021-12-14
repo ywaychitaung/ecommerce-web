@@ -1,6 +1,6 @@
 <footer aria-labelledby="footer-heading" class="bg-gray-100 text-sm text-gray-500">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col p-16 mx-auto md:mb-16">
+    <div class="flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col p-16 mx-auto mb-8 md:mb-16">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a class="flex items-center md:justify-start justify-center text-gray-900">
                 <!-- Logo -->
@@ -17,7 +17,7 @@
             </p>
         </div>
 
-        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="flex-grow flex flex-wrap text-center md:text-left mt-10 md:mt-0 -mb-10 md:pl-20 space-y-12 md:space-y-0">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
                 <h2 class="text-gray-900 font-semibold mb-4">About</h2>
 
@@ -48,7 +48,7 @@
                 <h2 class="text-gray-900 font-semibold mb-4">Social</h2>
 
                 <nav class="space-y-4">
-                    <div class="flex items-center hover:text-[#1877F2] space-x-2">
+                    <div class="flex items-center justify-center md:justify-start hover:text-[#1877F2] space-x-2">
                         <!-- Logo: Facebook -->
                         <svg class="h-4 w-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"/>
@@ -56,7 +56,7 @@
                         <a href="#" class="block">Facebook</a>
                     </div>
                     
-                    <div class="flex items-center hover:text-[#0096F4] space-x-2">
+                    <div class="flex items-center justify-center md:justify-start hover:text-[#0096F4] space-x-2">
                         <!-- Logo: Twitter -->
                         <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                             <path fill="currentColor" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/>
@@ -64,7 +64,7 @@
                         <a href="#" class="block">Twitter</a>
                     </div>
 
-                    <div class="flex items-center hover:text-[#FF0000] space-x-2">
+                    <div class="flex items-center justify-center md:justify-start hover:text-[#FF0000] space-x-2">
                         <!-- Logo: Youtube -->
                         <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                             <path fill="currentColor" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/>
@@ -95,7 +95,7 @@
                             <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
                         </svg>
                         <span class="ml-4 flex items-start flex-col">
-                            <span class="text-xs text-gray-600 mb-1">Download on the</span>
+                            <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
                             <span class="title-font font-medium">App Store</span>
                         </span>
                     </button>
@@ -105,7 +105,7 @@
     </div>
 
     <div class="text-gray-900 md:px-16 pb-12">
-        <div class="flex flex-col md:flex-row items-center justify-center md:justify-between">
+        <div class="flex flex-col md:flex-row items-center justify-center md:justify-between leading-8">
             <span>Copyright © {{ date('Y') }} Ecommerce Company Inc.</span>
 
             <a href="https://www.ywaychitaung.com" target="_blank" rel="noopener noreferrer" class="tracking-wide">@ywaychitaung</a>
