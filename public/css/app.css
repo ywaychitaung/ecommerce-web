@@ -558,23 +558,6 @@ select {
 [type='file']:focus {
   outline: 1px auto -webkit-focus-ring-color;
 }
-.aspect-w-1 {
-  position: relative;
-  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
-  --tw-aspect-w: 1;
-}
-.aspect-w-1 > * {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.aspect-h-1 {
-  --tw-aspect-h: 1;
-}
 .button {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
@@ -708,8 +691,8 @@ select {
 .h-80 {
   height: 20rem;
 }
-.h-full {
-  height: 100%;
+.h-24 {
+  height: 6rem;
 }
 .h-10 {
   height: 2.5rem;
@@ -737,6 +720,9 @@ select {
 }
 .w-1\/2 {
   width: 50%;
+}
+.w-24 {
+  width: 6rem;
 }
 .w-10 {
   width: 2.5rem;
@@ -798,12 +784,12 @@ select {
 .justify-between {
   justify-content: space-between;
 }
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
 .gap-x-6 {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+}
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1092,6 +1078,10 @@ select {
   color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 
+.hover\:opacity-75:hover {
+  opacity: 0.75;
+}
+
 .focus\:border-blue-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
@@ -1116,10 +1106,6 @@ select {
 .focus\:ring-blue-200:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(191 219 254 / var(--tw-ring-opacity));
-}
-
-.group:hover .group-hover\:opacity-75 {
-  opacity: 0.75;
 }
 
 @media (min-width: 640px) {
@@ -1249,12 +1235,16 @@ select {
     max-width: 80rem;
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:items-start {
@@ -1268,30 +1258,6 @@ select {
 }
 
 @media (min-width: 1280px) {
-
-  .xl\:aspect-w-7 {
-    position: relative;
-    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
-    --tw-aspect-w: 7;
-  }
-
-  .xl\:aspect-w-7 > * {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-
-  .xl\:aspect-h-8 {
-    --tw-aspect-h: 8;
-  }
-
-  .xl\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
 
   .xl\:gap-x-8 {
     -moz-column-gap: 2rem;

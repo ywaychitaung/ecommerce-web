@@ -2,18 +2,16 @@
 
 @section('content')
     <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-6 xl:gap-x-8 gap-y-10">
             @foreach ($products as $product)
-                <a href="{{ route('products.show', $product->id) }}" class="group">
-                    <div class="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                        <img src="{{ $product->image }}" alt="{{ $product->name }}" class="w-full h-full group-hover:opacity-75">
-                    </div>
+                <a href="{{ route('products.show', $product->id) }}">
+                    <img src="{{ $product->image }}" alt="{{ $product->name }}" class="h-24 w-24 hover:opacity-75 mx-auto md:mx-0">
 
-                    <h3 class="mt-4 text-sm text-gray-700">
+                    <h3 class="mt-4 text-sm text-gray-700 text-center md:text-left">
                         {{ $product->name }}
                     </h3>
 
-                    <p class="mt-1 text-lg font-semibold text-gray-900">
+                    <p class="mt-1 text-lg font-semibold text-gray-900 text-center md:text-left">
                         ${{ $product->price }}
                     </p>
                 </a>
