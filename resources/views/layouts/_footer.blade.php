@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <div class="text-gray-900 md:px-16 pb-12">
+    <div class="text-gray-900 md:px-16 pb-16">
         <div class="flex flex-col md:flex-row items-center justify-center md:justify-between leading-8">
             <span>Copyright © {{ date('Y') }} Ecommerce Company Inc.</span>
 
