@@ -94,24 +94,24 @@
                 </div>
             </div>
 
-            <div class="h-80 w-full md:w-1/4 bg-gray-100 rounded-lg p-8">
+            <div class="h-64 w-full md:w-1/4 bg-gray-100 rounded-lg p-8">
                 <p class="text-xl font-semibold mb-8">Order Summary</p>
 
-                <div class="flex items-center justify-between mb-4">
+                {{-- <div class="flex items-center justify-between mb-4">
                     <p class="text-gray-600">Subtotal</p>
                     <p class="font-medium text-gray-900">$ {{ Cart::subtotal() }}</p>
-                </div>
+                </div> --}}
 
-                <div class="flex items-center justify-between mb-4">
+                {{-- <div class="flex items-center justify-between mb-4">
                     <p class="text-gray-600">Tax (21%)</p>
                     <p class="font-medium text-gray-900">$ {{ Cart::tax() }}</p>
-                </div>
+                </div> --}}
 
                 <hr class="border-gray-300 mb-4">
 
                 <div class="flex items-center justify-between font-medium text-gray-900 mb-8">
                     <p>Total</p>
-                    <p>$ {{ Cart::total() }}</p>
+                    <p>$ {{ Cart::subtotal() }}</p>
                 </div>
 
                 <form action="{{ route('checkout') }}" method="POST">

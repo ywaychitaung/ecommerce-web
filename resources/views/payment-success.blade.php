@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Order Purchased'])
+@extends('layouts.app', ['title' => 'Payment Success'])
 
 @section('content')
     <div class="w-2/5 bg-blue-50 text-center rounded-2xl mx-auto mt-6 mb-16 py-16">

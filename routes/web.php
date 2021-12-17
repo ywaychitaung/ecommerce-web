@@ -24,6 +24,6 @@ Route::resource('products', 'ProductController');
 Route::resource('cart', 'CartController');
 
 Route::post('checkout', 'CheckoutController@checkout')->name('checkout');
-Route::get('purchased', 'CheckoutController@purchased');
+Route::get('payment-success', 'CheckoutController@paymentSuccess')->name('payment-success');
 
 Route::get('search', 'SearchController@search');
