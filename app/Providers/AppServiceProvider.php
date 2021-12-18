@@ -23,9 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // If the application is in production environment, we will enforce all url to be https
-        if ($this->app->environment() !== 'production') {
-            $this->app['url']->forceScheme('https');
+        // If the application is in production environment, we will enforce all urls to be https
+        if (app()->environment('production')) {
+            \URL::forceScheme('https');
         }
     }
 }
