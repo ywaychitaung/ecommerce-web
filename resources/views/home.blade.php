@@ -1,6 +1,8 @@
 @extends('layouts.app', ['title' => 'Home'])
 
 @section('content')
+    <welcome-modal></welcome-modal>
+    <welcome-modal></welcome-modal>
     <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-6 xl:gap-x-8 gap-y-10">
             @foreach ($products as $product)

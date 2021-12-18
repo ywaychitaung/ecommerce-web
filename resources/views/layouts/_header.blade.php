@@ -19,11 +19,19 @@
                 </svg>
             </a> --}}
 
-            <a href="{{ route('cart.index') }}">
+            <a href="{{ route('cart.index') }}" class="relative group">
                 <!-- Heroicons: shopping-bag -->
-                <svg class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg class="h-6 w-6 text-gray-500 group-hover:text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
+
+                @if (Cart::count() > 0)
+                    @if (Cart::count() < 100)
+                        <div class="absolute top-0 right-0 h-6 w-6 flex-shrink-0 flex items-center justify-center rounded-full bg-gray-100 group-hover:bg-blue-100 -mt-4 -mr-4">
+                            <span class="text-xs text-gray-500 group-hover:text-blue-500">{{ Cart::count() }}</span>
+                        </div>
+                    @endif
+                @endif
             </a>
         </div>
     </div>

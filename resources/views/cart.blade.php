@@ -114,10 +114,12 @@
                     <p>$ {{ Cart::subtotal() }}</p>
                 </div>
 
-                <form action="{{ route('checkout') }}" method="POST">
+                <proceed-payment-modal></proceed-payment-modal>
+
+                {{-- <form action="{{ route('checkout') }}" method="POST">
                     @csrf
                     <button class="button w-full">Checkout</button>
-                </form>
+                </form> --}}
             </div>
         </div>
     @else
