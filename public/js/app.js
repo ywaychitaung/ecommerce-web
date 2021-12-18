@@ -19430,13 +19430,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     type: "button",
     "class": "w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white hover:bg-blue-500 text-base font-medium text-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-  }, " Okay, got it! "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-    onClick: _cache[1] || (_cache[1] = function ($event) {
-      return $setup.open = false;
-    }),
-    type: "button",
-    "class": "mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-  }, " I won't tell you. Never! ")])])])], 512
+  }, " Okay, got it! ")])])])], 512
   /* NEED_PATCH */
   )), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $setup.open]]);
 }
