@@ -31,7 +31,7 @@
                                 <p class="mt-4">Here is the testing card. You can test with it.</p>
 
                                 <p class="mt-4">Card Number: 4242 4242 4242 4242</p>
-                                <p class="mt-2">Expire: 06/{{ (new Date().getFullYear() + 3).toString().substring(2) }}</p>
+                                <p class="mt-2">Expire Date: 06/{{ (new Date().getFullYear() + 3).toString().substring(2) }}</p>
                                 <p class="mt-2">CVC: 123</p>
                             </div>
                         </div>

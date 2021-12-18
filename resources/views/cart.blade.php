@@ -1,6 +1,8 @@
 @extends('layouts.app', ['title' => 'Cart'])
 
 @section('content')
+    <cart-demo-modal></cart-demo-modal>
+
     <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight ml-16 my-16">Cart</h1>
 
     @if (Cart::count() > 0)
@@ -114,12 +116,7 @@
                     <p>$ {{ Cart::subtotal() }}</p>
                 </div>
 
-                <proceed-payment-modal></proceed-payment-modal>
-
-                {{-- <form action="{{ route('checkout') }}" method="POST">
-                    @csrf
-                    <button class="button w-full">Checkout</button>
-                </form> --}}
+                <proceed-payment-demo-modal></proceed-payment-demo-modal>
             </div>
         </div>
     @else

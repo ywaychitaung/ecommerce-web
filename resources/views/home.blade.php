@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'Home'])
 
 @section('content')
-    <welcome-modal></welcome-modal>
+    <welcome-demo-modal></welcome-demo-modal>
 
     <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-6 xl:gap-x-8 gap-y-10">
@@ -9,11 +9,11 @@
                 <a href="{{ route('products.show', $product->id) }}">
                     <img src="{{ $product->image }}" alt="{{ $product->name }}" class="h-24 w-24 hover:opacity-75 mx-auto md:mx-0">
 
-                    <h3 class="mt-4 text-sm text-gray-700 text-center md:text-left">
+                    <h3 class="text-sm text-gray-700 text-center md:text-left mt-4">
                         {{ $product->name }}
                     </h3>
 
-                    <p class="mt-1 text-lg font-semibold text-gray-900 text-center md:text-left">
+                    <p class="text-lg font-semibold text-gray-900 text-center md:text-left mt-1">
                         ${{ $product->price }}
                     </p>
                 </a>
