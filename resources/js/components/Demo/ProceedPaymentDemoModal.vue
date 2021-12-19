@@ -42,12 +42,12 @@
                     <form action="checkout" method="POST">
                         <input type="hidden" name="_token" :value="csrf">
 
-                        <button type="submit" class="w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white hover:bg-blue-500 text-base font-medium text-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        <button type="submit" class="modal-button">
                             Proceed to Payment
                         </button>
                     </form>
 
-                    <button @click="open = false" type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                    <button @click="open = false" type="button" class="modal-button mt-3">
                         Cancel
                     </button>
                 </div>
