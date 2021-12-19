@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use App\Models\Product;
+use Illuminate\Database\Seeder;
 
 class ProductSeeder extends Seeder
 {
@@ -28,7 +28,7 @@ class ProductSeeder extends Seeder
             'price' => 35.00,
             'description' => "A pair of lightweight mesh men's running shoes as seen from the back or heel of the shoe. These sneakers are great for any activity. Just lace up and get running, jumping, balling, or just straight up looking good.",
             'category' => 'Sneakers'
-        ]
+        ],
     ];
 
     /**
