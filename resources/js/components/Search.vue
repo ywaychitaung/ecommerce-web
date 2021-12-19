@@ -1,6 +1,6 @@
 <template>
     <div class="relative w-2/5">
-        <input type="search" name="search" id="search" placeholder="Search" v-model="keywords" class="w-full rounded focus:ring-blue-500 focus:border-blue-500">
+        <input type="search" name="search" id="search" placeholder="Search" v-model="keywords" class="w-full border focus:border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
 
         <div v-if="products.length > 0 && keywords.length > 0" class="absolute w-full bg-gray-50 mt-2 px-4 py-2 z-10">
             <ul>
