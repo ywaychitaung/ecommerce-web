@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => 'Cart'])
 
 @section('content')
-    <cart-demo-modal></cart-demo-modal>
+    <email-demo-modal></email-demo-modal>
 
     <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight ml-16 my-16">Cart</h1>
 

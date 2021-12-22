@@ -22,7 +22,7 @@
 
                             <div class="text-sm text-gray-700 leading-6 mt-2">
                                 <p>
-                                    I'm using Mailgun's Sandbox subdomain for testing. You have to contact me before you continue.
+                                    I'm using Mailgun's Sandbox subdomain for testing. You have to contact me before you continue or you might get an error.
                                 </p>
 
                                 <p class="mt-4">Email: <span class="text-blue-500">yca@duck.com</span></p>
@@ -35,7 +35,7 @@
 
                 <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                     <button @click="open = false" type="button" class="modal-button">
-                        Okay, got it!
+                        I've already verfied my email
                     </button>
                 </div>
             </div>
