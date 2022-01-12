@@ -10,6 +10,7 @@ class ProductSeeder extends Seeder
     protected $data = [
         [
             'name' => 'Blue T-shirt',
+            'slug' => 'blue-t-shirt',
             'image' => 'https://res.cloudinary.com/ywaychitaung/image/upload/v1639852377/ecommerce/pshsrfmunuhluorpfijw.png',
             'price' => 30.00,
             'description' => 'A cobalt blue t-shirt on a hanger.',
@@ -17,6 +18,7 @@ class ProductSeeder extends Seeder
         ],
         [
             'name' => 'Sunglasses',
+            'slug' => 'sunglasses',
             'image' => 'https://res.cloudinary.com/ywaychitaung/image/upload/v1639837328/ecommerce/xyifn2xbggz2bc6dfarg.png',
             'price' => 25.00,
             'description' => 'Bold white framed sunglasses float against a white background.',
@@ -24,6 +26,7 @@ class ProductSeeder extends Seeder
         ],
         [
             'name' => 'Black Sneakers',
+            'slug' => 'black-sneakers',
             'image' => 'https://res.cloudinary.com/ywaychitaung/image/upload/v1639837233/ecommerce/b2tza1uhk0r9vorglorf.png',
             'price' => 35.00,
             'description' => "A pair of lightweight mesh men's running shoes as seen from the back or heel of the shoe. These sneakers are great for any activity. Just lace up and get running, jumping, balling, or just straight up looking good.",
