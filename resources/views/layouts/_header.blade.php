@@ -1,4 +1,4 @@
-<header aria-labelledby="header-heading" class="p-4 md:px-16 md:py-8">
+<header aria-labelledby="header-heading" class="p-4 md:px-16 md:py-8 h-[calc(100vh-36rem)]">
     <h2 id="header-heading" class="sr-only">Header</h2>
     <div class="flex items-center justify-between">
         <!-- Logo -->

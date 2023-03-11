@@ -48,6 +48,7 @@ class ProductController extends Controller
         // Save the product
         $product = Product::create(request()->validate([
             'name' => ['required'],
+            'slug' => ['required'],
             'price' => ['required'],
             'description' => ['required'],
             'category' => ['required'],

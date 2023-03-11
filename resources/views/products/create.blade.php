@@ -4,6 +4,8 @@
     <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data" class="w-1/2 mx-auto py-16">
         @csrf
         <x-input name="name" type="text" />
+
+        <x-input name="slug" type="text" />
         
         <input type="file" name="image" id="image" accept="image/*" class="mb-4">
         
